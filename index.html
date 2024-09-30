@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DnxtPIZZA Place</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <!--Header Begins-->
+    <header id="header">
+        <div class="header">
+            <div class="header-left">
+                <div class="header-logo-container">
+                    <h2 class="header-logo">DnxtPIZZA</h2>
+                </div>
+            </div>
+            <div class="header-right">
+                <ul class="header-navigation">
+                    <li class="nav-item"><a href="#delivery-hour">Delivery Hours</a></li>
+                    <li class="nav-item"><a href="#location">Location</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--Header Ends-->
+    <!--main Begins-->
+    <main id="main">
+        <!--Hero Begins-->
+        <section id="hero">
+            <div class="hero-img-container">
+                <img src="imgs/wan-pizza1.jpg" alt="" class="hero-large-img">
+                <img src="#" alt="" class="hero-small-img">
+            </div>
+            <div class="hero">
+                <div class="hero-left">
+                    <form class="hero-form">
+                        <div class="form-header">
+                            <h2>Place your order</h2>
+                        </div>
+                        <div class="error">Invalid Order</div>
+                        <div class="hero-form-content">
+                            <div class="form-detail">
+                                <label for="order-location">Location:</label>
+                                <select type="text" class="order-location" id="order-location">
+                                    <option value="">--choose your location--</option>
+                                    <option value="Abaji">Abaji</option>
+                                    <option value="Amac">Amac</option>
+                                    <option value="Bwari">Bwari</option>
+                                    <option value="Gwagwalada">Gwagwalada</option>
+                                    <option value="Kwali">Kwali</option>
+                                </select>
+                            </div>
+                            <div class="form-detail">
+                                <label for="address">Address:</label>
+                                <input type="text" class="address" id="address" placeholder="Enter your address">
+                            </div>
+                            <div class="form-detail">
+                                <label for="order-des">Order Description:</label>
+                                <textarea name="order_des" placeholder="e.g 1 plain cheese pizza, 4 pepperoni pizza" id="order-des" class="order-des"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-sbmit-btn-container">
+                            <input type="submit" class="form-submit-btn" value="Place Order">
+                        </div>
+                        </from>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-right-content">
+                        <div class="hero-right-header">
+                            <h2>Get your pizza within 30 minutes</h2>
+                        </div>
+                        <div class="hero-right-detail">
+                            <p>We are not just the maker of the best pizza in town, we also take pride that our customres get their within 30 minutes after order. Place an order and experience our magic.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Hero Ends-->
+        <!--Below Hero Begins-->
+        <section id="pizza-flavor">
+            <div class="pizza-flavor">
+                <div class="pizza-flavor-header">
+                    <h2>We specialize in five pizza flavors</h2>
+                </div>
+                <div class="pizza-flavor-content">
+                    <div class="pizza-flavor-content-top">
+                        <div class="pizza-flavor-card">
+                            <div class="card-top">
+                                <div class="card-img">
+                                    <img src="imgs/amirali-mirhashemian-XtLPfib7OuM-unsplash.jpg" alt="" class="pizza-flavor-img">
+                                </div>
+                            </div>
+                            <div class="card-bottom">
+                                <h3>Plain Cheese Pizza</h3>
+                            </div>
+                        </div>
+                        <div class="pizza-flavor-card">
+                            <div class="card-top">
+                                <div class="card-img">
+                                    <img src="imgs/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.jpg" alt="" class="pizza-flavor-img">
+                                </div>
+                            </div>
+                            <div class="card-bottom">
+                                <h3>pepperoni pizza</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pizza-flavor-content-bottom">
+                        <div class="pizza-flavor-card">
+                            <div class="card-top">
+                                <div class="card-img">
+                                    <img src="imgs/louis-hansel-cC0_UO1Obg4-unsplash.jpg" alt="" class="pizza-flavor-img">
+                                </div>
+                            </div>
+                            <div class="card-bottom">
+                                <h3>veggie pizza</h3>
+                            </div>
+                        </div>
+                        <div class="pizza-flavor-card">
+                            <div class="card-top">
+                                <div class="card-img">
+                                    <img src="imgs/sarang-pande-A9oUGvA4gR8-unsplash.jpg" alt="" class="pizza-flavor-img">
+                                </div>
+                            </div>
+                            <div class="card-bottom">
+                                <h3>Margherita pizza</h3>
+                            </div>
+                        </div>
+                        <div class="pizza-flavor-card">
+                            <div class="card-top">
+                                <div class="card-img">
+                                    <img src="imgs/inna-gurina-JspLKUauwSI-unsplash.jpg" alt="" class="pizza-flavor-img">
+                                </div>
+                            </div>
+                            <div class="card-bottom">
+                                <h3>meat pizza</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Below Hero Ends-->
+        <!--Places Begins-->
+        <section id="places">
+            <div class="light">
+                <div class="light-content">
+                    <div class="light-description">
+                        <div class="light-description-top">
+                            <div class="light-top-img-container">
+                                <img src="imgs/order.png" alt="" class="light-img">
+                            </div>
+                        </div>
+                        <div class="light-description-bottom">
+                            <p class="quicksand">Make your<br> order</p>
+                        </div>
+                    </div>
+                    <div class="light-description">
+                        <div class="light-description-line-top">
+                            <p class="quicksand">Within 30 minutes</p>
+                        </div>
+                        <div class="light-description-line">
+                        </div>
+                    </div>
+                    <div class="light-description">
+                        <div class="light-description-top">
+                            <div class="light-top-img-container">
+                                <img src="imgs/shopping-bag.png" alt="" class="light-img">
+                            </div>
+                        </div>
+                        <div class="light-description-bottom">
+                            <p class="quicksand">Get your<br> order</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="places">
+                <div class="places-left">
+                    <div class="places-left-container">
+                        <div class="place-left-img-container">
+                            <img src="imgs/pizza6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="places-right">
+                    <div class="places-right-container">
+                        <div class="place-right-header">
+                            <h2 class="quicksand">We go the extra mile to deliver your pizza to you</h2>
+                        </div>
+                        <div class="place-right-content">
+                            <p class="quicksand">Your wellbeing is our priority, that is why we take the pain to go the extra mile come rain or shine just to put a smile on your face by satisfying your hunger or cravings.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Places Ends-->
+        <!--Delivery Hour Begins-->
+        <section id="delivery-hour">
+            <div class="delivery-hour">
+                <div class="delivery-hour-header">
+                    <h2 class="quicksand">Our Delivery Hours</h2>
+                </div>
+                <div class="delivery-hour-content">
+                    <div class="delivery-hour-content-details">
+                        <p class="quicksand">We are alway one call away through the week during these hours:</p>
+                        <ul class="working-hour-list">
+                            <li class="list-item">Monday - Saturday: 8:00 to 20:00</li>
+                            <li class="list-item">Sunday: 11:00 to 20:00</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Delivery Hour Ends-->
+        <!--Bottom Hero Begins-->
+        <section id="bottom-hero">
+            <div class="hero-img-container">
+                <img src="imgs/pizza-background.jpg" alt="" class="hero-large-img">
+                <img src="#" alt="" class="hero-small-img">
+            </div>
+            <div class="hero bottom-hero">
+                <div class="hero-left">
+                    <from class="hero-form">
+                        <div class="form-header">
+                            <h2>Place your order</h2>
+                        </div>
+                        <div class="error">Invalid Order</div>
+                        <div class="hero-form-content">
+                            <div class="form-detail">
+                                <label for="order-location1">Location:</label>
+                                <select type="text" class="order-location" id="order-location1">
+                                    <option value="">--choose your location--</option>
+                                    <option value="Abaji">Abaji</option>
+                                    <option value="Amac">Amac</option>
+                                    <option value="Bwari">Bwari</option>
+                                    <option value="Gwagwalada">Gwagwalada</option>
+                                    <option value="Kwali">Kwali</option>
+                                </select>
+                            </div>
+                            <div class="form-detail">
+                                <label for="address1">Address:</label>
+                                <input type="text" class="address" id="address1" placeholder="Enter your address">
+                            </div>
+                            <div class="form-detail">
+                                <label for="order-des1">Order Description:</label>
+                                <textarea name="order_des" placeholder="e.g 1 plain cheese pizza, 4 pepperoni pizza" id="order-des1" class="order-des"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-sbmit-btn-container">
+                            <input type="submit" class="form-submit-btn" value="Place Order">
+                        </div>
+                    </from>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-right-content">
+                        <div class="hero-right-header">
+                            <h2>Our Pizza comes in different flavours</h2>
+                        </div>
+                        <div class="hero-right-detail">
+                            <p>We are not just the maker of the best pizza in town, we also take pride that our customres get their within 30 minutes after order. Place an order and experience our magic.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Hero Ends-->
+        <!--Location Begins-->
+        <section id="location">
+            <div class="location">
+                <div class="location-content">
+                    <div class="location-content-header">
+                        <h2 class="quicksand">Our Location</h2>
+                    </div>
+                    <div class="location-content-details">
+                        <p class="quicksand">Come and experience the pleasure of our cafe first hand at</p>
+                        <p class="our-address quicksand">No 4, tinubu road, off jonathan cresent, Maitama, FCT Abuja.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Location Ends-->
+        <!--Client Review Begins-->
+        <section id="client-review">
+            <div class="client-reviews">
+                <div class="client-review-header">
+                    <h2 class="quicksand">Client Review</h2>
+                </div>
+                <div class="client-navigations">
+                    <div class="goLeft">
+                        <div class="left"></div>
+                    </div>
+                    <div class="goRight">
+                        <div class="right"></div>
+                    </div>
+                </div>
+                <div class="client-review-content">
+                    <div class="client">
+                        <div class="client-img">
+                            <h1 class="quicksand"></h1>
+                        </div>
+                        <div class="client-header">
+                            <h3>Osemen Silas</h3>
+                        </div>
+                        <div class="client-comment">
+                            <p>The order service at DnxtPizza is subperb, it does not have a match anywhere, not to talk of the customer's relation.</p>
+                        </div>
+                    </div>
+                    <div class="client">
+                        <div class="client-img">
+                            <h1 class="quicksand"></h1>
+                        </div>
+                        <div class="client-header">
+                            <h3>James Bond</h3>
+                        </div>
+                        <div class="client-comment">
+                            <p>The order service at DnxtPizza is subperb, it does not have a match anywhere, not to talk of the customer's relation.</p>
+                        </div>
+                    </div>
+                    <div class="client">
+                        <div class="client-img">
+                            <h1 class="quicksand"></h1>
+                        </div>
+                        <div class="client-header">
+                            <h3 class="quicksand">Silas Banks</h3>
+                        </div>
+                        <div class="client-comment">
+                            <p class="quicksand">The order service at DnxtPizza is subperb, it does not have a match anywhere, not to talk of the customer's relation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Client Review Ends-->
+    </main>
+    <!--Main Ends-->
+    <!--Footer Begins-->
+    <footer id="footer">
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <h2 class="quicksand">DnxtPIZZA</h2>
+                </div>
+                <div class="footer-top-middle">
+                    <div class="footer-navigations">
+                        <a href="#" class="footer-nav quicksand">Contact Us</a>
+                        <a href="#" class="footer-nav quicksand">About Us</a>
+                        <a href="#" class="footer-nav quicksand">Privacy Policy</a>
+                        <a href="#" class="footer-nav quicksand">Terms of Use</a>
+                    </div>
+                </div>
+                <div class="footer-top-right">
+                    <div class="footer-top-right-header">
+                        <h3 class="quicksand">Follow us @</h3>
+                    </div>
+                    <ul class="follow-imgs-container">
+                        <li class="follow-img-container">
+                            <a href="#" class="follow-link" target="_blank" title="follow-link"><img class="follow-img" src="imgs/facebook.png" alt=""></a>
+                        </li>
+                        <li class="follow-img-container">
+                            <a href="#" class="follow-link" target="_blank" title="follow-link"><img class="follow-img" src="imgs/instagram.png" alt=""></a>
+                        </li>
+                        <li class="follow-img-container">
+                            <a href="#" class="follow-link" target="_blank" title="follow-link"><img class="follow-img" src="imgs/twitter.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>All rights reserved &copy DnxtPIZZA an osemensilas landing page design</p>
+            </div>
+        </div>
+    </footer>
+    <!--Footer Ends-->
+    <script src="js/index.js"></script>
+</body>
+
+</html>

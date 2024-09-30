@@ -1,0 +1,187 @@
+@media only screen and (min-height: 1024px) {
+    #hero,
+    #bottom-hero {
+        height: 60vh;
+    }
+    .hero {
+        height: 100%;
+    }
+    .hero-left {
+        width: 45%;
+    }
+    .hero-right {
+        width: 55%;
+    }
+    .places {
+        height: 50vh;
+    }
+    .pizza-flavor-content-top .pizza-flavor-card,
+    .pizza-flavor-content-bottom .pizza-flavor-card {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #hero {
+        height: max-content;
+        padding: 0 10px;
+    }
+    .hero {
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .hero-left {
+        width: 100%;
+        position: relative;
+    }
+    .hero-right {
+        width: 100%;
+    }
+    .form-header {
+        padding: 15px 0;
+    }
+    .hero-right {
+        margin-bottom: 30px;
+    }
+    .hero-form {
+        margin-bottom: 20px;
+    }
+    .light-content {
+        width: 100%;
+    }
+    .light-description-top {
+        height: 50px;
+    }
+    .light-top-img-container {
+        height: 50px;
+        width: 50px;
+    }
+    .light {
+        height: 150px;
+    }
+    #bottom-hero {
+        height: max-content;
+        padding: 0 10px;
+    }
+    .client {
+        display: none;
+        width: 70%;
+    }
+    .client.active {
+        transition: 0.3s ease;
+        display: block;
+    }
+    .client-review-content {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-top {
+        display: inline-block;
+    }
+    .footer-top-left {
+        padding: 20px 0;
+    }
+    .footer-top-right-header h3 {
+        text-align: center;
+    }
+    .follow-imgs-container {
+        justify-items: center;
+    }
+    .footer-bottom p {
+        text-align: center;
+    }
+    .client-reviews {
+        position: relative;
+    }
+    .client-navigations {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 1px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .goLeft,
+    .goRight {
+        position: relative;
+        height: 150px;
+        width: 30px;
+        border: 1px solid #faab19;
+        border-radius: 10px;
+    }
+    .left,
+    .right {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .left::after {
+        content: '';
+        position: absolute;
+        top: 23px;
+        left: -25px;
+        height: 1px;
+        width: 50px;
+        background: #faab19;
+        transform: rotate(75deg);
+    }
+    .left::before {
+        content: '';
+        position: absolute;
+        top: -23px;
+        left: -25px;
+        height: 1px;
+        width: 50px;
+        background: #faab19;
+        transform: rotate(-75deg);
+    }
+    .right::after {
+        content: '';
+        position: absolute;
+        top: 23px;
+        left: -25px;
+        height: 1px;
+        width: 50px;
+        background: #faab19;
+        transform: rotate(-75deg);
+    }
+    .right::before {
+        content: '';
+        position: absolute;
+        top: -23px;
+        left: -25px;
+        height: 1px;
+        width: 50px;
+        background: #faab19;
+        transform: rotate(75deg);
+    }
+    #client-review {
+        padding: 0 10px;
+    }
+    #header {
+        padding: 0 10px;
+    }
+    .nav-item {
+        margin: 0 0 0 10px;
+    }
+    .pizza-flavor-content-top {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pizza-flavor-content-bottom {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pizza-flavor-content-top .pizza-flavor-card,
+    .pizza-flavor-content-bottom .pizza-flavor-card {
+        margin: 0 0 30px 0;
+        width: 95%;
+    }
+    .pizza-flavor-content-top {
+        padding: 30px 0 0 0;
+    }
+    .pizza-flavor-content-bottom {
+        padding: 0 0 30px 0;
+    }
+}
